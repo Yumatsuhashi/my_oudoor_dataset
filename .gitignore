@@ -203,6 +203,19 @@ cython_debug/
 
 # Marimo
 marimo/_static/
+
+
+
+# Google / AWS など機密キー・トークン類
+credentials*.json
+client_secret*.json
+token*.json
+
+# 汎用的な秘密鍵・証明書
+*.pem
+*.key
+*.p12
+*.crt
 marimo/_lsp/
 __marimo__/
 
